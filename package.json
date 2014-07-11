@@ -10,6 +10,6 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "line-reader": "^0.2.3"
+    "line-reader": "~0.2.3"
   }
 }

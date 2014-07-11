@@ -3,7 +3,7 @@
  * be requested and the URL to be redirected to seperated by a space.
  */
 
-var url = "http://www.gaiamtv-acquia-dev.gaiam.com",
+var url = "http://myotest-qa.gaiam.com",
     testPair = [],
     http = require('http'),
     lineReader = require('line-reader');
@@ -11,20 +11,22 @@ var url = "http://www.gaiamtv-acquia-dev.gaiam.com",
 function check301(source, destination){
   console.log('Calling check301 for ' + source);
   var options = {
-    hosthame: url,
+    hostname: 'myotest-qa.gaiam.com',
     port: 80,
     path: source,
     method: 'GET',
-    agent: false
 }
   var request = http.request(options, function(response){
     console.log('Getting ' + source);
     if (response.statusCode != 301 || 
         response.headers.location != destination){
       console.log(source + ' does not redirect to ' + destination);
+    } else {
+      console.log(source + ' passed!');
     }
   }).on('error', function(e){
     console.log(e.message);
+    console.log(e.stack);
   });
   request.end();
 }
