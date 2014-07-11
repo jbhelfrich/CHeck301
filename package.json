@@ -1,0 +1,15 @@
+{
+  "name": "redirectChecker",
+  "version": "0.0.0",
+  "description": "Check that the provided URLs redirect correctly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Helfrich",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "line-reader": "^0.2.3"
+  }
+}
