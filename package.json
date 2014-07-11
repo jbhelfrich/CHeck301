@@ -1,6 +1,6 @@
 {
   "name": "redirectChecker",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Check that the provided URLs redirect correctly",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,10 @@
   "private": true,
   "dependencies": {
     "line-reader": "~0.2.3"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
   }
 }
