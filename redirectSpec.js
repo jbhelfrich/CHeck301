@@ -3,7 +3,7 @@
  * be requested and the URL to be redirected to seperated by a space.
  */
 
-var url = "www.gaiam.com",
+var url = "http://www.gaiam.com",
     http = require('http'),
     fs = require('fs');
 
