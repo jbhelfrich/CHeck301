@@ -9,7 +9,9 @@
   "author": "Joe Helfrich",
   "license": "ISC",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "line-reader": "~0.2.3"
+  },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
