@@ -7,7 +7,7 @@
 // and some complain if it is present.  For example, Ubuntu seems to need it
 // but ArchLinux does not.  If you get errors retriving a site, try adding
 // or removing that first.
-var url = "http://myotest-qa.gaiam.com",
+var url = "http://storefront:monday1@www.spri.com",
     http = require('http'),
     fs = require('fs');
 
